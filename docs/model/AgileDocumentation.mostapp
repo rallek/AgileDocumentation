@@ -1,0 +1,51 @@
+application AgileDocumentation {
+	vendor "zikula.de"
+	author "Ralf Köster"
+	email "ralf@zikula.de"
+	url "http://zikula.de"
+	prefix agiled
+	modelLayer {
+		modelContainer Model {
+			entities {
+				entity document categorisable categorisableMultiSelection {
+					nameMultiple documents
+					workflow STANDARD
+					hasArchive true
+				}
+			}
+		}
+	}
+	controllerLayer {
+		controllerContainer Controller {
+			modelContext ( "AgileDocumentation.Model" )
+			processViews "AgileDocumentation.View"
+			controllers {
+				adminController Admin {
+					actions {
+						mainAction Main,
+						viewAction View,
+						deleteAction Delete
+					}
+				},
+				userController User {
+					actions {
+						mainAction Main,
+						viewAction View,
+						displayAction Display,
+						editAction Edit
+					}
+				},
+				ajaxController Ajax {
+					actions {
+						mainAction Main
+					}
+				}
+			}
+		}
+	}
+	viewLayer {
+		viewContainer View {
+			controller "AgileDocumentation.Controller"
+		}
+	}
+}

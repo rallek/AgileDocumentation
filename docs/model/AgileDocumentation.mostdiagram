@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:modulestudio="http://modulestudio.de/modulestudio" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <notation:Diagram xmi:id="_2PRvsJNYEeOnefGPoIqe8Q" type="Module" name="AgileDocumentation.mostdiagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_2XmlQJNYEeOnefGPoIqe8Q" type="2001" fontName="monospaced" fontHeight="12" lineColor="4210752">
+      <children xmi:type="notation:DecorationNode" xmi:id="_2XnMUJNYEeOnefGPoIqe8Q" type="5001"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_2XmlQZNYEeOnefGPoIqe8Q" diagramLink="_D2P7sJNZEeOnefGPoIqe8Q" hint="Model"/>
+      <element xmi:type="modulestudio:Models" href="AgileDocumentation.mostapp#//@models.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2XmlQpNYEeOnefGPoIqe8Q" y="100"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_2XnMUZNYEeOnefGPoIqe8Q" type="2002" fontName="monospaced" fontHeight="12" lineColor="4210752">
+      <children xmi:type="notation:DecorationNode" xmi:id="_2XnMVJNYEeOnefGPoIqe8Q" type="5002"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_2XnMUpNYEeOnefGPoIqe8Q" diagramLink="_3SDbUJNYEeOnefGPoIqe8Q" hint="Controller"/>
+      <element xmi:type="modulestudio:Controllers" href="AgileDocumentation.mostapp#//@controllers.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2XnMU5NYEeOnefGPoIqe8Q" x="50"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_2XnMVZNYEeOnefGPoIqe8Q" type="2003" fontName="monospaced" fontHeight="12" lineColor="4210752">
+      <children xmi:type="notation:DecorationNode" xmi:id="_2XnzYJNYEeOnefGPoIqe8Q" type="5003"/>
+      <element xmi:type="modulestudio:Views" href="AgileDocumentation.mostapp#//@views.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2XnMVpNYEeOnefGPoIqe8Q" x="142" y="100"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_2PRvsZNYEeOnefGPoIqe8Q"/>
+    <element xmi:type="modulestudio:Application" href="AgileDocumentation.mostapp#/"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3SDbUJNYEeOnefGPoIqe8Q" type="Controller" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_4KpQMJNYEeOnefGPoIqe8Q" type="2201" fontColor="4210752" fontName="Lucida Grande" fontHeight="12" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_4Kp3QJNYEeOnefGPoIqe8Q" type="5210"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_4KqeUJNYEeOnefGPoIqe8Q" type="7201">
+        <children xmi:type="notation:Shape" xmi:id="_6D4pwJNYEeOnefGPoIqe8Q" type="3201" fontColor="4210752" fontName="Lucida Grande" fontHeight="12" lineColor="0">
+          <children xmi:type="notation:DecorationNode" xmi:id="_6D4pwpNYEeOnefGPoIqe8Q" type="5201"/>
+          <element xmi:type="modulestudio:MainAction" href="AgileDocumentation.mostapp#//@controllers.0/@controllers.0/@actions.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6D4pwZNYEeOnefGPoIqe8Q" x="71" y="28"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_6wZxgJNYEeOnefGPoIqe8Q" type="3202" fontColor="4210752" fontName="Lucida Grande" fontHeight="12" lineColor="0">
+          <children xmi:type="notation:DecorationNode" xmi:id="_6wZxgpNYEeOnefGPoIqe8Q" type="5202"/>
+          <element xmi:type="modulestudio:ViewAction" href="AgileDocumentation.mostapp#//@controllers.0/@controllers.0/@actions.1"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6wZxgZNYEeOnefGPoIqe8Q" x="198" y="37"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_A6euIJNZEeOnefGPoIqe8Q" type="3205" fontColor="4210752" fontName="Lucida Grande" fontHeight="12" lineColor="0">
+          <children xmi:type="notation:DecorationNode" xmi:id="_A6euIpNZEeOnefGPoIqe8Q" type="5205"/>
+          <element xmi:type="modulestudio:DeleteAction" href="AgileDocumentation.mostapp#//@controllers.0/@controllers.0/@actions.2"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A6euIZNZEeOnefGPoIqe8Q" x="333" y="41"/>
+        </children>
+      </children>
+      <element xmi:type="modulestudio:AdminController" href="AgileDocumentation.mostapp#//@controllers.0/@controllers.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4KpQMZNYEeOnefGPoIqe8Q" x="85" y="68" width="477" height="256"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_44E98JNYEeOnefGPoIqe8Q" type="2202" fontColor="4210752" fontName="Lucida Grande" fontHeight="12" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_44FlAJNYEeOnefGPoIqe8Q" type="5211"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_44FlAZNYEeOnefGPoIqe8Q" type="7202">
+        <children xmi:type="notation:Shape" xmi:id="_6LUHcJNYEeOnefGPoIqe8Q" type="3201" fontColor="4210752" fontName="Lucida Grande" fontHeight="12" lineColor="0">
+          <children xmi:type="notation:DecorationNode" xmi:id="_6LUHcpNYEeOnefGPoIqe8Q" type="5201"/>
+          <element xmi:type="modulestudio:MainAction" href="AgileDocumentation.mostapp#//@controllers.0/@controllers.1/@actions.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6LUHcZNYEeOnefGPoIqe8Q" x="122" y="31"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_65W5MJNYEeOnefGPoIqe8Q" type="3202" fontColor="4210752" fontName="Lucida Grande" fontHeight="12" lineColor="0">
+          <children xmi:type="notation:DecorationNode" xmi:id="_65W5MpNYEeOnefGPoIqe8Q" type="5202"/>
+          <element xmi:type="modulestudio:ViewAction" href="AgileDocumentation.mostapp#//@controllers.0/@controllers.1/@actions.1"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_65W5MZNYEeOnefGPoIqe8Q" x="261" y="41"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_7mwKsJNYEeOnefGPoIqe8Q" type="3203" fontColor="4210752" fontName="Lucida Grande" fontHeight="12" lineColor="0">
+          <children xmi:type="notation:DecorationNode" xmi:id="_7mwKspNYEeOnefGPoIqe8Q" type="5203"/>
+          <element xmi:type="modulestudio:DisplayAction" href="AgileDocumentation.mostapp#//@controllers.0/@controllers.1/@actions.2"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7mwKsZNYEeOnefGPoIqe8Q" x="385" y="59"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_8rp9QJNYEeOnefGPoIqe8Q" type="3204" fontColor="4210752" fontName="Lucida Grande" fontHeight="12" lineColor="0">
+          <children xmi:type="notation:DecorationNode" xmi:id="_8rqkUJNYEeOnefGPoIqe8Q" type="5204"/>
+          <element xmi:type="modulestudio:EditAction" href="AgileDocumentation.mostapp#//@controllers.0/@controllers.1/@actions.3"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8rp9QZNYEeOnefGPoIqe8Q" x="52" y="67"/>
+        </children>
+      </children>
+      <element xmi:type="modulestudio:UserController" href="AgileDocumentation.mostapp#//@controllers.0/@controllers.1"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_44E98ZNYEeOnefGPoIqe8Q" x="595" y="68" width="545" height="256"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_5c3tEJNYEeOnefGPoIqe8Q" type="2203" fontColor="4210752" fontName="Lucida Grande" fontHeight="12" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_5c4UIJNYEeOnefGPoIqe8Q" type="5212"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_5c4UIZNYEeOnefGPoIqe8Q" type="7203">
+        <children xmi:type="notation:Shape" xmi:id="_6TP7cJNYEeOnefGPoIqe8Q" type="3201" fontColor="4210752" fontName="Lucida Grande" fontHeight="12" lineColor="0">
+          <children xmi:type="notation:DecorationNode" xmi:id="_6TP7cpNYEeOnefGPoIqe8Q" type="5201"/>
+          <element xmi:type="modulestudio:MainAction" href="AgileDocumentation.mostapp#//@controllers.0/@controllers.2/@actions.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6TP7cZNYEeOnefGPoIqe8Q" x="70" y="34"/>
+        </children>
+      </children>
+      <element xmi:type="modulestudio:AjaxController" href="AgileDocumentation.mostapp#//@controllers.0/@controllers.2"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5c3tEZNYEeOnefGPoIqe8Q" x="476" y="391" width="307" height="358"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3SDbUZNYEeOnefGPoIqe8Q"/>
+    <element xmi:type="modulestudio:Controllers" href="AgileDocumentation.mostapp#//@controllers.0"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_D2P7sJNZEeOnefGPoIqe8Q" type="Model" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_E6lGgJNZEeOnefGPoIqe8Q" type="2101" fontColor="4210752" fontName="Lucida Grande" fontHeight="12" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_E6ltkJNZEeOnefGPoIqe8Q" type="5102"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_E6m7sJNZEeOnefGPoIqe8Q" type="7101">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_E6m7sZNZEeOnefGPoIqe8Q"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_E6m7spNZEeOnefGPoIqe8Q"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_E6m7s5NZEeOnefGPoIqe8Q" type="7103"/>
+      <element xmi:type="modulestudio:Entity" href="AgileDocumentation.mostapp#//@models.0/@entities.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E6lGgZNZEeOnefGPoIqe8Q" x="119" y="68" width="426" height="630"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_D2P7sZNZEeOnefGPoIqe8Q"/>
+    <element xmi:type="modulestudio:Models" href="AgileDocumentation.mostapp#//@models.0"/>
+  </notation:Diagram>
+</xmi:XMI>
